@@ -36,8 +36,8 @@
 #ifndef __vtkCGMWriter_h
 #define __vtkCGMWriter_h
 
-#include "vtkIOGeometryModule.h" // For export macro
-#include "vtkPolyDataWriter.h"
+#include "../Geometry/vtkIOGeometryModule.h" // For export macro
+#include "../Legacy/vtkPolyDataWriter.h"
 
 class vtkViewport;
 

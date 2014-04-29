@@ -1,0 +1,13 @@
+vtk_module(vtkIOCGM
+  DEPENDS
+    vtkCommonDataModel
+    vtkCommonExecutionModel
+    vtkRenderingCore
+    vtkIOCore
+    vtkIOLegacy
+  TEST_DEPENDS
+    vtkTestingCore
+    vtkRenderingOpenGL
+    vtkTestingRendering
+    vtkInteractionStyle
+)
